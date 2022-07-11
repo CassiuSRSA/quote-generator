@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Lato:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: no-repeat
+    url("https://images.pexels.com/photos/1165991/pexels-photo-1165991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    center center/cover;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 500px;
+  min-width: 500px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 20px;
+  font-family: "Edu QLD Beginner", cursive;
+  color: #32a895;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+#button:hover {
+  color: #32a895;
+}
